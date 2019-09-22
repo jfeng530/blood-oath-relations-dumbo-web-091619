@@ -58,8 +58,8 @@ class Cult
         end
     end
 
-    def self.least_popular
-        
+    def self.least_popula
+        Cult.all.
     end
 
 
