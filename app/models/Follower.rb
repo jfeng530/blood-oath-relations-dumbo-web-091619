@@ -29,4 +29,11 @@ class Follower
     def self.of_a_certain_age(age)
         self.all.select {|follower| follower.age >= age}
     end
+    
+    def my_cults_mottos
+      self.members.map do |member|
+          member.life_motto
+      end
+    end
+    
 end
