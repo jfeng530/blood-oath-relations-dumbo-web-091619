@@ -72,18 +72,10 @@ class Cult
     end
     
     def self.most_common_location
-      Cult.all.each do |cult|
-        if local
-          if cult.location !== local
-            local = cult.location
-            count = count + 1
-          end 
-        else
-          local = cult.location
-          count = 1 
-        end
+      all_localations = Cult.all.map do |cult|
+        cult.location
       end
-      local
+      all_localations.max_by {|location| all_localations.count(location) }
     end 
 
 
