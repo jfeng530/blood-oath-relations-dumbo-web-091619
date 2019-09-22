@@ -32,7 +32,7 @@ class Follower
     
     def my_cults_mottos
       self.cults.map do |cult|
-          member.life_motto
+          cult.motto 
       end
     end
     
