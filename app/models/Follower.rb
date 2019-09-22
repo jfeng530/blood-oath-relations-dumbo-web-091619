@@ -60,7 +60,7 @@ class Follower
     def fellow_cult_members
       friends = []
       Follower.all.select do |follower|
-        if follower.cults include?(self.cults)
+        if follower.cults.include?(self.cults)
           friends << follower
         end 
       end
