@@ -1,7 +1,7 @@
 require 'date'
 class Cult
 
-    attr_accessor :name, :location, :founding_year, :slogan
+    attr_accessor :name, :location, :founding_year, :slogan, :population
     @@all = []
 
     def initialize(name, location, founding_year, slogan)
@@ -21,7 +21,8 @@ class Cult
     end
 
     def cult_population
-        self.oaths.count
+        @population = self.oaths.count
+        @population
     end
 
     def oaths
@@ -59,14 +60,7 @@ class Cult
     end
 
     def self.least_popular
-        pop = 99
-        bad_cult = nil
-        Cult.all.each do |cult|
-          if cult.cult_population < pop 
-            pop = cult.members
-            bad_cult = cult 
-          end
-        end
+   
     end
 
 
