@@ -36,4 +36,15 @@ class Follower
       end
     end
     
+    def self.most_active
+      count = 0
+      cultist = nil
+      Follower.all.each do |follower|
+        if follower.oaths_made.count > count
+          count = follower.oaths_made.count
+          cultist = follower 
+      end
+      cultist
+    end 
+    
 end
