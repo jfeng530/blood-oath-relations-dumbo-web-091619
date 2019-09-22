@@ -54,6 +54,7 @@ class Follower
         follower_hash[follower.name] = follower.oaths_made.count
       end
       sorted = follower_hash.sort_by { |name, count| count }.reverse
+      sorted[0..9]
     end 
     
 end
