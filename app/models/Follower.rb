@@ -48,4 +48,8 @@ class Follower
       cultist
     end 
     
+    def self.top_ten
+      
+    end 
+    
 end
