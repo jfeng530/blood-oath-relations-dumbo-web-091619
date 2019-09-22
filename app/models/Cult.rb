@@ -76,7 +76,7 @@ class Cult
       count = 0
       Cult.all.each do |cult|
         if cult.location !== local
-          local = local
+          local = cult.location
         end
       end
     end 
