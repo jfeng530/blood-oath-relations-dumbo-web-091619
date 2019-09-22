@@ -68,6 +68,7 @@ class Cult
           bad_cult = self
         end
       end
+      bad_cult
     end
 
 
