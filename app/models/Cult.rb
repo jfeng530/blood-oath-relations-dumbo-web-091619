@@ -19,7 +19,7 @@ class Cult
 
     def recruit_follower(person)
       if person.age < self.minimum_age
-        puts "Sorry, you do not fulfill the age requirement for this cult."
+        return "Sorry, you do not fulfill the age requirement for this cult."
       else 
         BloodOath.new(self, person, Date.today.to_s)
       end
