@@ -67,6 +67,7 @@ class Follower
         end 
       end
       friends.delete(self)
+      friends
     end 
     
 end
