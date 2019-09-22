@@ -57,4 +57,8 @@ class Follower
       sorted[0..9]
     end 
     
+    def fellow_cult_members
+      self.oaths_made
+    end 
+    
 end
