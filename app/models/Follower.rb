@@ -59,7 +59,7 @@ class Follower
     
     def fellow_cult_members
       buddies = []
-      if self.oaths_made == 
+      self.oaths_made.cult
     end 
     
 end
