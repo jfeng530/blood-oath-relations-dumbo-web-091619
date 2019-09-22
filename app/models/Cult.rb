@@ -66,6 +66,7 @@ class Cult
         if cult.members.count > pop
           pop = cult.members.count
           bad_cult = self
+        end
       end
     end
 
