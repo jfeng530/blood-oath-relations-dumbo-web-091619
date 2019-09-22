@@ -15,11 +15,11 @@ steve = Follower.new("Steve", 25, "Sup Im steve")
 anton = Follower.new("Anton", 21, "anton is here")
 jill = Follower.new("Jill", 33, "Hey yall")
 
-oath1 = jill.join_cult(lorde)
-oath2 = steve.join_cult(jagger)
-oath3 = anton.join_cult(bowie)
-oath4 = anton.join_cult(lorde)
-oath5 = jill.join_cult(bowie)
+j_lorde = jill.join_cult(lorde)
+s_jagger = steve.join_cult(jagger)
+a_bowie = anton.join_cult(bowie)
+a_lorde = anton.join_cult(lorde)
+j_bowie = jill.join_cult(bowie)
 
 binding.pry
 
