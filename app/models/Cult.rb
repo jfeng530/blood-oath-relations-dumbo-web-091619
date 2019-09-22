@@ -1,4 +1,5 @@
 require 'date'
+require 'pry'
 class Cult
 
     attr_accessor :name, :location, :founding_year, :slogan
@@ -65,6 +66,7 @@ class Cult
           if cult.cult_population < pop 
             pop = cult.members
             bad_cult = cult 
+            binding.pry
           end
         end
     end
