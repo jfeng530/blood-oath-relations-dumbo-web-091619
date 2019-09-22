@@ -18,6 +18,7 @@ class Cult
     end
 
     def recruit_follower(person)
+      if person.
       BloodOath.new(self, person, Date.today.to_s)
     end
 
