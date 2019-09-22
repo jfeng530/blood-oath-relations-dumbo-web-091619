@@ -60,7 +60,7 @@ class Cult
     end
 
     def self.least_popular
-      pop = 0
+      pop = 9999
       bad_cult = nil
       Cult.all.each do |cult|
         if cult.members.count > pop
