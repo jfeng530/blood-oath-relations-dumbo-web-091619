@@ -49,7 +49,10 @@ class Follower
     end 
     
     def self.top_ten
-      
+      follower_hash = {}
+      Follower.all.each do |follower|
+        follower_hash[follower] = follower.oaths_made.count
+      end 
     end 
     
 end
