@@ -7,10 +7,10 @@ end
 # This is a convenient place to define variables and/or set up new object instances,
 # so they will be available to test and play around with in your console
 
-lorde = Cult.new("Cult Lorde", "NY", 1990, "Be Royal")
+lorde = Cult.new("Cult Lorde", "NY", 1990, "Be Royal", 18)
 jagger = Cult.new("Stones Cult", "LA", 1980, "Something with a stone")
 bowie = Cult.new("Cult of Oddity", "Space", 1970, "Where you at, Tom")
-nicks = Cult.new("Fleetwood", "LA", 1994, "Rhiannon")
+nicks = Cult.new("Fleetwood", "LA", 1994, "Rhiannon", 12)
 
 steve = Follower.new("Steve", 25, "Sup Im steve")
 anton = Follower.new("Anton", 21, "anton is here")
@@ -31,7 +31,7 @@ a_lorde = anton.join_cult(lorde)
 j_bowie = jill.join_cult(bowie)
 ab_lorde = abe.join_cult(lorde)
 b_nicks = ben.join_cult(nicks)
-c_nicks = cary.join_cult(nicks)
+#c_nicks = cary.join_cult(nicks)
 d_lorde = dave.join_cult(lorde)
 e_bowie = enes.join_cult(bowie)
 h_bowie = henry.join_cult(bowie)
