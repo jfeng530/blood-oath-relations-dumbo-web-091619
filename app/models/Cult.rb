@@ -72,8 +72,6 @@ class Cult
     end
     
     def self.most_common_location
-      local = nil
-      count = 0
       Cult.all.each do |cult|
         if local
           if cult.location !== local
