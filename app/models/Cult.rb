@@ -80,7 +80,7 @@ class Cult
           count = count + 1 
         end
       end
-      local 
+      local
     end 
 
 
