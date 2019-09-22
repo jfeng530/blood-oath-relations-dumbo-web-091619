@@ -52,7 +52,8 @@ class Follower
       follower_hash = {}
       Follower.all.each do |follower|
         follower_hash[follower] = follower.oaths_made.count
-      end 
+      end
+      follower_hash
     end 
     
 end
