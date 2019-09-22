@@ -29,7 +29,19 @@ s_jagger = steve.join_cult(jagger)
 a_bowie = anton.join_cult(bowie)
 a_lorde = anton.join_cult(lorde)
 j_bowie = jill.join_cult(bowie)
-j_nicks = jill.join_cult(nicks)
+ab_lorde = abe.join_cult(lorde)
+b_nicks = ben.join_cult(nicks)
+c_nicks = cary.join_cult(nicks)
+d_lorde = dave.join_cult(lorde)
+e_bowie = enes.join_cult(bowie)
+h_bowie = henry.join_cult(bowie)
+ab_nicks = abe.join_cult(nicks)
+f_lorde = frank.join_cult(lorde)
+h_nicks = henry.join_cult(nicks)
+ab_bowie = abe.join_cult(bowie)
+h_lorde = henry.join_cult(lorde)
+e_jagger = enes.join_cult(jagger)
+
 
 
 binding.pry
