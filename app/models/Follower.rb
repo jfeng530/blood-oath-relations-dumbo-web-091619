@@ -58,7 +58,7 @@ class Follower
     end 
     
     def fellow_cult_members
-      Follwer.all.select do |follower|
+      Follower.all.select do |follower|
         follower.cults == self.cults && follower != self
       end 
     end 
