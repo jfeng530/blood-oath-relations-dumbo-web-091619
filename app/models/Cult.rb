@@ -9,6 +9,7 @@ class Cult
         @location = location
         @founding_year = founding_year
         @slogan = slogan
+        @population = self.oaths.count
         @@all << self
     end
 
