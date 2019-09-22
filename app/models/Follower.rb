@@ -23,6 +23,8 @@ class Follower
     end
 
     def join_cult(cult)
+        if self.age < cult.minimum_age
+          
         cult.recruit_follower(self)
     end
 
