@@ -70,6 +70,10 @@ class Cult
       end
       bad_cult
     end
+    
+    def self.most_common_location
+      
+    end 
 
 
 end
