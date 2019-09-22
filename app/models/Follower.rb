@@ -24,8 +24,10 @@ class Follower
 
     def join_cult(cult)
         if self.age < cult.minimum_age
-          
-        cult.recruit_follower(self)
+          return "Sorry, you do not fulfill the age requirement for this cult."
+        else
+          cult.recruit_follower(self)
+        end
     end
 
     def self.of_a_certain_age(age)
