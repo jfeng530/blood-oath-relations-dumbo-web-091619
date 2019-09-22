@@ -63,7 +63,7 @@ class Cult
       pop = 9999
       bad_cult = nil
       Cult.all.each do |cult|
-        if cult.members.count > pop
+        if cult.members.count < pop
           pop = cult.members.count
           bad_cult = cult
         end
