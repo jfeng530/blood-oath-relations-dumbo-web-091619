@@ -59,7 +59,7 @@ class Follower
     
     def fellow_cult_members
       buddies = []
-      self.oaths_made.cult
+      
     end 
     
 end
