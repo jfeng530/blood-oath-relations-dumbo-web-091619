@@ -66,7 +66,7 @@ class Follower
           friends << follower
         end 
       end
-      friends
+      friends.delete(self)
     end 
     
 end
