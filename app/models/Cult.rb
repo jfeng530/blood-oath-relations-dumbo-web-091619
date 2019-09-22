@@ -65,7 +65,7 @@ class Cult
       Cult.all.each do |cult|
         if cult.members.count > pop
           pop = cult.members.count
-          bad_cult = self
+          bad_cult = cult
         end
       end
       bad_cult
