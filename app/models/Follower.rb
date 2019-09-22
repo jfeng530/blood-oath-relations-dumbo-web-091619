@@ -43,6 +43,7 @@ class Follower
         if follower.oaths_made.count > count
           count = follower.oaths_made.count
           cultist = follower 
+        end 
       end
       cultist
     end 
